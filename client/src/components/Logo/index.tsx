@@ -1,10 +1,9 @@
 import React from "react"
+const logo = require("./logo.png")
 
 const Logo = ()=>{
     return (
-        <h1>
-            Logo here
-        </h1>
+        <img className="logo h-10" src={logo}></img>
     )
 }
 

@@ -9,9 +9,11 @@ const Header = ()=>{
     return(
         <header>
             <TopPromo></TopPromo>        
+            <div className="m-4">
             <Logo></Logo>
             <Nav></Nav>
             <CartIcon></CartIcon>
+            </div>
         </header>
     )
 }
