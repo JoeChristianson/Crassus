@@ -1,0 +1,19 @@
+.top-info-bubble{
+    left:50%;
+    bottom:-6px;
+    transform: translate(-50%,calc(10px + 100%));
+    padding: 1rem;
+    background:rgba(0, 0, 0, 0.616)
+}
+
+.top-info-bubble:after{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.616);
+    width: 20px;
+    height: 20px;
+    top:-10px;
+    left:calc(50% - 5px);
+    transform:rotate(45deg)
+
+}
